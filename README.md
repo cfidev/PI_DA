@@ -51,23 +51,23 @@ El proyecto está dividido en varias secciones interactivas desarrolladas con **
 
 Instala las dependencias utilizando el archivo `requirements.txt`:
 
-\```bash
+```bash
 pip install -r requirements.txt
-\```
+```
 
 ### Ejecutar la aplicación
 
 Una vez instaladas las dependencias, puedes ejecutar la aplicación Streamlit con el siguiente comando:
 
-\```bash
+```bash
 streamlit run app.py
-\```
+```
 
 Esto abrirá una ventana del navegador donde podrás interactuar con las diferentes secciones del análisis.
 
 ### Estructura de Archivos
 
-\```
+```bash
 PI_DA/
 │
 ├── data/
@@ -76,14 +76,12 @@ PI_DA/
 ├── notebooks/
 │   └── eda.ipynb             # Análisis Exploratorio de Datos (EDA) realizado
 │
-├── venv/                     # Entorno virtual con las dependencias instaladas
-│
 ├── app.py                    # Aplicación principal desarrollada con Streamlit
 │
 ├── requirements.txt          # Lista de dependencias del proyecto
 │
 └── README.md                 # Este archivo README
-\```
+```
 
 ## Recomendaciones Futuros Análisis
 
